@@ -3,36 +3,36 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
-  background-color: #141414; /* Dark background */
-  color: #ffffff; /* White text */
-  width: 100vw; /* Full width */
-  height: 100vh; /* Full height */
-  overflow: hidden; /* Prevent scrollbars on body */
+  background-color: #141414;
+  color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .container {
   display: flex;
-  height: calc(100vh - 80px); /* Remaining height after accounting for the header */
-  width: 100%; /* Full width */
-  max-width: 1400px; /* Optional maximum width to prevent too wide a stretch on large screens */
-  margin: 0 auto; /* Center the container horizontally */
+  height: calc(100vh - 80px);
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
   overflow: hidden;
 }
 
 .left-panel {
-  width: 300px; /* Fixed width for the left panel */
+  width: 300px;
   background-color: #141414;
   border-right: 1px solid #333;
   overflow-y: auto;
-  flex-shrink: 0; /* Prevents shrinking */
+  flex-shrink: 0;
 }
 
 .right-panel {
-  display: flex; /* Flex container to handle content alignment */
-  flex-direction: column; /* Stack content vertically */
-  flex-grow: 1; /* Takes up the remaining space */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   padding: 20px;
   background-color: #141414;
   overflow-y: auto;
-  min-width: 0; /* Prevents content overflow */
+  min-width: 0;
 }

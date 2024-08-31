@@ -36,7 +36,7 @@ const Title = styled.h3`
   color: #333;
 
   @media (max-width: 768px) {
-    font-size: 1em; /* Adjust font size for mobile */
+    font-size: 1em; 
   }
 `;
 
@@ -45,7 +45,7 @@ const Year = styled.p`
   color: #777;
 
   @media (max-width: 768px) {
-    font-size: 0.9em; /* Smaller font size on mobile */
+    font-size: 0.9em; 
   }
 `;
 
@@ -60,7 +60,7 @@ const Poster = styled.img`
   }
 
   @media (max-width: 768px) {
-    width: 40px; /* Smaller poster size on mobile */
+    width: 40px; 
   }
 `;
 

@@ -10,16 +10,16 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'Arial', sans-serif;
-    background-color: #141414; /* Dark background */
-    color: #ffffff; /* White text for contrast */
-    width: 100vw; /* Full width */
-    height: 100vh; /* Full height */
-    overflow: hidden; /* Prevent scrolling of the body */
+    background-color: #141414;
+    color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
   }
 
   .container {
     display: flex;
-    height: calc(100vh - 80px); /* Remaining height after accounting for the header */
+    height: calc(100vh - 80px);
     width: 100%; /* Full width */
     overflow: hidden;
   }
