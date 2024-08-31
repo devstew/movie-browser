@@ -42,6 +42,7 @@ const SearchInput = styled.input`
   color: #ffffff; /* White color for better contrast */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: border-color 0.3s ease;
+  z-index: 100;
 
   &:focus {
     border-color: #e50914;
