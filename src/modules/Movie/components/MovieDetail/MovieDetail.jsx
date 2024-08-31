@@ -10,9 +10,9 @@ const DetailContainer = styled.div`
   border-radius: 8px;
   background-color: #141414;
   color: #ffffff;
-  flex-grow: 1; /* Takes up all the remaining space */
-  width: 100%; /* Ensures it stretches across the full width */
-  min-width: 0; /* Prevents overflow */
+  flex-grow: 1; 
+  width: 100%; 
+  min-width: 0; 
   transition: transform 0.3s ease, opacity 0.3s ease;
   opacity: ${({ $isVisible }) => ($isVisible ? 1 : 0)};
   transform: ${({ $isVisible }) => ($isVisible ? 'translateY(0)' : 'translateY(20px)')};
@@ -29,7 +29,7 @@ const NoSelection = styled.div`
   text-align: center;
   color: #888;
   padding: 50px;
-  width: 100%; /* Ensures full width */
+  width: 100%;
 `;
 
 function MovieDetail({ selectedMovie }) {

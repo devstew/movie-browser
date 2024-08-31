@@ -11,8 +11,8 @@ const Header = styled.div`
   align-items: center;
   width: 100%;
   padding: 20px 0;
-  background-color: #141414; /* Dark header background */
-  border-bottom: 1px solid #333; /* Subtle border for separation */
+  background-color: #141414; 
+  border-bottom: 1px solid #333; 
   position: relative;
 `;
 
@@ -21,7 +21,7 @@ const Logo = styled.div`
   left: 20px;
   font-size: 1.5em;
   font-weight: bold;
-  color: #e50914; /* Netflix red color for the logo */
+  color: #e50914; 
 `;
 
 const SearchContainer = styled.div`
@@ -39,7 +39,7 @@ const SearchInput = styled.input`
   border-radius: 8px;
   font-size: 1em;
   background-color: #333;
-  color: #ffffff; /* White color for better contrast */
+  color: #ffffff; 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: border-color 0.3s ease;
   z-index: 100;
@@ -52,7 +52,7 @@ const SearchInput = styled.input`
 
 const Container = styled.div`
   display: flex;
-  height: calc(100vh - 80px); /* Adjust height after accounting for header */
+  height: calc(100vh - 80px); 
   width: 100%;
   overflow: hidden;
 
@@ -63,19 +63,19 @@ const Container = styled.div`
 `;
 
 const LeftPanel = styled.div`
-  width: 300px; /* Fixed width for the left panel */
+  width: 300px; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #141414; /* Dark background */
+  background-color: #141414; 
   border-right: 1px solid #333;
   overflow-y: auto;
-  height: 100%; /* Ensure it fills the full height */
+  height: 100%; 
 `;
 
 const RightPanel = styled.div`
-  flex: 1; /* Fill remaining space */
-  background-color: #141414; /* Dark background */
+  flex: 1; 
+  background-color: #141414;
   padding: 20px;
   overflow-y: auto;
 `;

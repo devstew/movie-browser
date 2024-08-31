@@ -7,15 +7,14 @@ const ListContainer = styled.div`
   overflow-y: auto;
   width: 100%;
   height: 100%;
-  background-color: #141414; /* Dark background to match Netflix style */
-
-  /* Hide scrollbar */
+  background-color: #141414; 
+  
   ::-webkit-scrollbar {
     width: 0;
     background: transparent;
   }
 
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none; 
 
   @media (max-width: 768px) {
     height: auto;

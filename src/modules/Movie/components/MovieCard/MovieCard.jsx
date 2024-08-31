@@ -18,7 +18,7 @@ const Card = styled.div`
   }
 
   @media (max-width: 768px) {
-    padding: 8px; /* Smaller padding on mobile */
+    padding: 8px;
   }
 `;
 
@@ -26,7 +26,7 @@ const Info = styled.div`
   margin-left: 10px;
 
   @media (max-width: 768px) {
-    margin-left: 8px; /* Smaller margin on mobile */
+    margin-left: 8px; 
   }
 `;
 
